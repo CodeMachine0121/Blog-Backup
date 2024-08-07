@@ -1,5 +1,62 @@
-<div class="con<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+    .right {
+        padding: 0 45px 0 0;
+        width: auto;
+        flex: 1;
+    }
+
+    .left {
+        flex: 2;
+    }
+
+    .t-2 {
+        padding-left: 10px;
+    }
+
+    .numbered-list {
+        list-style-type: decimal;
+    }
+
+    .disc-list {
+        list-style-type: disc;
+    }
+
+    @media (max-width: 1024px) {
+        .right, .left {
+            flex: 1 1 100%;
+            padding: 0;
+        }
+
+        .right {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .right, .left {
+            width: 100%;
+            padding: 0;
+        }
+
+        .right {
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
+
+<div class="container">
     <div class="right">
         <div class="contact">
             <h3>Contact Me</h3>
@@ -13,7 +70,7 @@
         </div>
         <hr>
         <div class="skills">
-           <h3>Skills</h3>
+            <h3>Skills</h3>
             <ol class="disc-list">
                 <li>Dev Flow</li>
                 <li>Programming Language</li>
@@ -122,42 +179,4 @@
         <hr>
     </div>
 </div>
-<style>
-
-    @media (max-width: 768px) {
-        .container {
-            flex-direction: column;
-        }
-
-        .right {
-            padding: 0;
-            width: 100%;
-        }
-    }
-
-    .container {
-        display: flex;
-        flex-direction: row;
-
-        .right {
-            padding: 0 45px 0 0;
-            width: auto;
-        }
-    }
-
-
-    .t-2 {
-        padding-left: 10px;
-    }
-
-    .numbered-list {
-        list-style-type: decimal;
-    }
-
-    .disc-list {
-        list-style-type: disc;
-    }
-</style>
-
-
 <%- partial('_partial/paginator') %>
