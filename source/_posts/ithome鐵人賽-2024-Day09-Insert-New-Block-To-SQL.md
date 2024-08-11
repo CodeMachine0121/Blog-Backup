@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024 Day09 Insert New Block To SQL
 date: 2024-08-11 23:22:19
 tags: entityframework, tdd, mysql, .net
 ---
+
 Hi all, 今天第九天 今天就來讓專案可以 Insert Block吧！
 
 那由於主要內容都是與SQL做互動，所以我們的code 主要也會動在 repository 層的 `InsertBlock(BlockDomain)` 。
@@ -40,7 +41,8 @@ public async Task<BlockDomain> GenerateNewBlock(GenerateNewBlockDto dto)
 
 ## Update Service Code
 
-可以看到我們在計算 `newBlock`  是透過 id 為 0 的區塊計算出來的，但這不是我們期望的，我們希望的是取得目前鏈上的最後一塊區塊對吧？ 所以我們必須要來小修改下，當然這邊也會是由 TDD 出發，code 如下：
+可以看到我們在計算 `newBlock`  是透過 id 為 0 的區塊計算出來的，但這不是我們期望的，我們希望的是取得目前鏈上的最後一塊區塊對吧？
+所以我們必須要來小修改下，當然這邊也會是由 TDD 出發，code 如下：
 
 ### Unit Test Code
 

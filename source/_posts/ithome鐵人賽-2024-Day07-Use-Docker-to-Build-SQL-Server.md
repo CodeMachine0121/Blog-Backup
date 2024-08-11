@@ -3,7 +3,7 @@ title: ithome鐵人賽-2024 Day07 Use Docker to Build SQL Server
 date: 2024-08-11 23:20:32
 tags: docker, mysql
 ---
-Hi 來到第七天，昨天已經說明了該怎麼使用 mysql 來 create 這次要用來存放 Block 的 table ，但我們還缺個可運行的 db  server。
+Hi 來到第七天，昨天已經說明了該怎麼使用 mysql 來 create 這次要用來存放 Block 的 table ，但我們還缺個可運行的 db server。
 
 今天就來搭建一下 docker 這個好用的玩意兒吧!
 
@@ -14,7 +14,7 @@ Hi 來到第七天，昨天已經說明了該怎麼使用 mysql 來 create 這�
 
 ### 自己的說法
 
-其實 Docker 可以想像做是更輕量化的 VM ( 虛擬機) ，他不需要多餘的GUI 介面或是 Account 管理 之類的系統，完全是以最乾淨的 Linux 作為基底進行操作。
+其實 Docker 可以想像做是更輕量化的 VM (虛擬機) ，他不需要多餘的GUI 介面或是 Account 管理 之類的系統，完全是以最乾淨的 Linux 作為基底進行操作。
 
 不過在使用前還是有幾樣知識需要知道:
 

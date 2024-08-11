@@ -56,7 +56,7 @@ public static class HashHelper
 
 [![Yes](https://img.youtube.com/vi/-wfHTxRAuuU/0.jpg)](https://www.youtube.com/watch?v=-wfHTxRAuuU)
 
-經由影片中，可以發現其實我們的 service 是有瑕疵的，因為在 Service 層我們 hard code 去拿 id=0 的 Block。以正常的邏輯來說，我們應該去拿取目前鏈上最後一個區塊，但由於目前還沒有定義好我們的區塊鏈該存放在哪，因此 Repository 層也沒有所謂的 BlockChain 可以索取資料。
+經由影片中，可以發現其實我們的 service 是有瑕疵的，因為在 Service 層我們 hard code 去拿 **id=0** 的 Block。以正常的邏輯來說，我們應該去拿取目前鏈上最後一個區塊，但由於目前還沒有定義好我們的區塊鏈該存放在哪，因此 Repository 層也沒有所謂的 BlockChain 可以索取資料。
 
 關於 Repository 怎麼跟 BlockChain 的取得最後筆資料來產生下個區塊的雜湊值，目前我打算讓 Repository向資料庫索取，但~~~那是明天的事情了哈。
 
