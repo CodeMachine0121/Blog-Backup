@@ -1,20 +1,20 @@
 <footer class="footer">
     <div class="footer-line"></div>
     <div class="footer-container">
-        <div class="Navigation">
+        <div class="Navigation footer-item">
             <h3>Navigation</h3>
             <p><a href="/about">About</a></p>
             <p><a href="/archives">Archive</a></p>
         </div>
 
-        <div class="viewer">
+        <div class="viewer footer-item">
             <h3>Visitor Count</h3>
             <a class="viewer-counts" href="https://www.hitwebcounter.com" target="_blank">
                 <img src="https://hitwebcounter.com/counter/counter.php?page=15548774&style=0009&nbdigits=5&type=page&initCount=0"
                      title="Counter Widget" Alt="Visit counter For Websites"/>
             </a>
         </div>
-        <div class="contact">
+        <div class="contact footer-item">
             <h3>Contact</h3>
             <p><a href="mailto:asdfg55887@gmail.com"> My Email</a></p>
         </div>
@@ -32,6 +32,12 @@
         display: flex;
         justify-content: space-around;
         padding: 20px;
+        .footer-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     @media screen and (max-width: 768px) {
