@@ -11,6 +11,7 @@ body {
 
 .header, .footer, .main {
   width: 100%;
+  max-width: 85%;
   margin: 0 auto;
   padding: 72px 8vw 24px;
   background: var(--color-background);
