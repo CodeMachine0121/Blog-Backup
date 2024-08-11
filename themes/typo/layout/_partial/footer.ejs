@@ -1,5 +1,36 @@
 <footer class="footer">
-  <% if (theme.copyright){ %>
-  <span>Copyright © <%= config.copyright || theme.copyright %></span>
-  <% } %>
+    <div class="footer-line"></div>
+    <div class="footer-container">
+        <div class="Navigation">
+            <h3>Navigation</h3>
+            <p><a href="/about">About</a></p>
+            <p><a href="/archive">Archive</a></p>
+        </div>
+
+        <div class="viewer">
+            <h3>Visitor Count</h3>
+            <a class="viewer-counts" href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=15548774&style=0009&nbdigits=5&type=page&initCount=0"
+                     title="Counter Widget" Alt="Visit counter For Websites"/>
+            </a>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:asdfg55887@gmail.com"> asdfg55887@gmail.com</a></p>
+        </div>
+
+    </div>
 </footer>
+
+<style>
+    .footer-line {
+        height: 1px;
+        background-color: #e0e0e0;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+</style>
