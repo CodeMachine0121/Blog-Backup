@@ -1,25 +1,40 @@
 <header class="header">
-  <section class="header-container">
-    <a class="logo" href="<%- url_for() %>"><%= config.title %></a>
-    <ul class="nav">
-      <% for (name in theme.menu) { %>
-      <li><a href="<%- url_for(theme.menu[name]) %>"><%= name %></a></li>
-      <% } %>
-    </ul>
-  </section>
+    <section class="header-container">
+        <a class="logo" href="<%- url_for() %>"><%= config.title %></a>
+        <ul class="nav">
+            <% for (name in theme.menu) { %>
+                <li><a href="<%- url_for(theme.menu[name]) %>"><%= name %></a></li>
+            <% } %>
+        </ul>
+    </section>
 
-  <div class="button-container">
-    <button onclick="previousPageOnclick()">back</button>
-  </div>
+    <div class="button-container hidden" id="previous-button">
+        <button onclick="previousPageOnclick()">back</button>
+    </div>
 </header>
 
 <script>
-  function previousPageOnclick(){
-    console.log(`${window.location.href}`)
-    if (window.location.href.endsWith("/")) {
-      window.location.href = "<%- url_for('/') %>";
-    } else {
-      history.back();
+    function previousPageOnclick() {
+        if (window.location.href.endsWith("/")) {
+            window.location.href = "<%- url_for('/') %>";
+        } else {
+            history.back();
+        }
     }
-  }
+
+
+    function checkUrlAndHideButton() {
+        let buttonElement = document.getElementById('previous-button');
+        const port = window.location.port ? `:${window.location.port}` : '';
+        const rootUrl = `${window.location.protocol}//${window.location.hostname}${port}/`;
+
+        console.log(`${rootUrl}`)
+
+        if (window.location.href !== rootUrl) {
+            buttonElement.classList.remove('hidden');
+        }
+    }
+
+    // Call the function on page load
+    window.onload = checkUrlAndHideButton;
 </script>
