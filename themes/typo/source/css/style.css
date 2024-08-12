@@ -13,7 +13,7 @@ body {
   width: 100%;
   max-width: 85%;
   margin: 0 auto;
-  padding: 72px 8vw 24px;
+  padding: 30px 8vw 24px;
   background: var(--color-background);
   overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ body {
   top: -48px;
   background: inherit;
   margin: 0 auto;
-  padding: 64px 8vw 0;
+  padding: 30px 8vw 0;
 }
 
 .header-container {
@@ -277,4 +277,23 @@ a {
   color: var(--font-color);
   border-bottom: 2px solid var(--font-color);
   cursor: not-allowed;
+}
+
+.button-container {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #9c9c9c; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 80px;
 }

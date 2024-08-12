@@ -7,4 +7,19 @@
       <% } %>
     </ul>
   </section>
+
+  <div class="button-container">
+    <button onclick="previousPageOnclick()">back</button>
+  </div>
 </header>
+
+<script>
+  function previousPageOnclick(){
+    console.log(`${window.location.href}`)
+    if (window.location.href.endsWith("/")) {
+      window.location.href = "<%- url_for('/') %>";
+    } else {
+      history.back();
+    }
+  }
+</script>
