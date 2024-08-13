@@ -1,5 +1,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+    .title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .icon {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 40px;
+        height: 30px;
+        border-radius: 10%;
+        padding: 2px;
+        margin-right: 10px;
+
+        img {
+            height: 24px;
+            width: 32px;
+        }
+    }
+
     .container {
         display: flex;
         flex-direction: row;
@@ -120,7 +141,15 @@
         <div class="working-experience">
             <h2>Working Experience</h2>
             <hr>
-            <h3> 新加坡商 鈦坦科技, TitanSoft</h3>
+            <div class="title">
+                <div class="icon">
+                    <img data-v-a57f4bb6=""
+                         src="https://static.104.com.tw/b_profile/cust_picture/0920/130000000030920/logo.png?v=20240712181752"
+                         alt="新加坡商鈦坦科技股份有限公司台灣分公司 LOGO"
+                         title="新加坡商鈦坦科技股份有限公司台灣分公司 LOGO">
+                </div>
+                <h3>TitanSoft, 新加坡商鈦坦科技</h3>
+            </div>
             <p>Product Developer</p>
             <p>2022~ 2024</p>
             <ol class="disc-list">
@@ -139,14 +168,30 @@
             <ol class="numbered-list">
                 <li>
                     <h3>Computer Science and Information Engineering</h3>
-                    <p>National Yunlin University of Science and Technology, YunTech</p>
+                    <div class="title">
+                        <div class="icon">
+                            <img data-v-a57f4bb6=""
+                                 src="https://id.yuntech.edu.tw/storage/photos/shares/link/yuntech.png"
+                                 alt="國立雲林科技大學 LOGO"
+                                 title="國立雲林科技大學 LOGO">
+                        </div>
+                        <p>National Yunlin University of Science and Technology, YunTech</p>
+                    </div>
                     <p>Master’s Degree</p>
                     <p>2020 ~ 2022</p>
                     <p class="t-2"> Study on Blockchain and Network Security Research Area </p>
                 </li>
                 <li>
                     <h3>Information and Telecommunication Engineering</h3>
-                    <p>Ming Chaun University, MCU</p>
+                    <div class="title">
+                        <div class="icon">
+                            <img data-v-a57f4bb6=""
+                                 src="https://www1.mcu.edu.tw/Apps/SB/data/10/%E6%A0%A1%E5%BE%BD.gif"
+                                 alt="銘傳大學 LOGO"
+                                 title="銘傳大學 LOGO">
+                        </div>
+                        <p>Ming Chaun University, MCU</p>
+                    </div>
                     <p>Bachelor’s Degree</p>
                     <p>2016 ~ 2020</p>
                     <p class="t-2">Study on Network Security Research Area</p>
