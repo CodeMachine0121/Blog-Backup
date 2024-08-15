@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day06 Use MySQL
-date: 2024-08-11 23:19:31
 tags: mysql
+abbrlink: 84f4b7b3
+date: 2024-08-11 23:19:31
 ---
 Hi 來到第六天，昨天講到我們需要透過 Repository 層與資料庫進行交互取得實際的區塊鍊資料。
 

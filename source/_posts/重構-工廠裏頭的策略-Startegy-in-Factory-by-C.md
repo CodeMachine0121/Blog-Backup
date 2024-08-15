@@ -1,7 +1,8 @@
 ---
 title: '[重構] 工廠裏頭的策略 Startegy in Factory by C#'
+tags: 'Refactoring, .Net, Decorator, Strategy'
+abbrlink: f0cbbe44
 date: 2024-08-12 10:55:05
-tags: Refactoring, .Net, Decorator, Strategy
 ---
 Hi all, 在之前的文章中有講到，我們如何在一個充滿 if-else 及 switch-case 的 code 重構成策略模式讓其本身決定是否符合條件，以下為重構後的 code。
 

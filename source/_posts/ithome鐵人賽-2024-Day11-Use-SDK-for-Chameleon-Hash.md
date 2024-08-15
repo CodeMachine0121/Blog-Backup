@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024-Day11-Use SDK for Chameleon Hash
+tags: '.Net, ChameleonHash, Sdk'
+abbrlink: 5edf55db
 date: 2024-08-13 21:46:24
-tags: .Net, ChameleonHash, Sdk
 ---
 Hi all, 來到第 11 天，今天就來講講該如何把昨天的公式實作吧。
 

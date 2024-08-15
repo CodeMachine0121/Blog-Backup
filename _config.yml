@@ -13,8 +13,11 @@ timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://codemachine0121.github.io
+permalink: blog/:abbrlink.html
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32 ,crc16的最大帖子數是65535。
+  rep: hex    #support dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -102,3 +105,5 @@ deploy:
   type: git
   repo: https://github.com/CodeMachine0121/CodeMachine0121.github.io
   branch: main
+
+all_minifier: true

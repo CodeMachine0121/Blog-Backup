@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day09 Insert New Block To SQL
+tags: 'entityframework, tdd, mysql, .net'
+abbrlink: c35b4088
 date: 2024-08-11 23:22:19
-tags: entityframework, tdd, mysql, .net
 ---
 
 Hi all, 今天第九天 今天就來讓專案可以 Insert Block吧！

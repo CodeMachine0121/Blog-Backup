@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day04 Get the First Block
+tags: 'blockchain, tdd'
+abbrlink: 6f938f8a
 date: 2024-08-11 23:16:11
-tags: blockchain, tdd
 ---
 Hi all,  到了第四天終於可以來搞專案了，今天的目標很簡單，我想要寫出取得 Block 的 API。
 

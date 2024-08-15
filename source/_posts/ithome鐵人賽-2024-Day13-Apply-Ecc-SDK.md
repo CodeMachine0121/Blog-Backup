@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024-Day13 Apply Ecc SDK
+tags: 'sdk, ChameleonHash, Signature'
+abbrlink: 8b64eeab
 date: 2024-08-15 21:31:57
-tags: sdk, ChameleonHash, Signature
 ---
 
 Hi all, 來到第13天 昨天由於依賴衝突的關係，導致延後套用 SDK~~~今天就來把專案引入昨天寫好的 SDK吧。

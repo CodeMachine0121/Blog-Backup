@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024-Day10 Introduce Chameleon Hash
+tags: 'cryptography, chameleon hash'
+abbrlink: 9aa313dd
 date: 2024-08-12 23:04:54
-tags: cryptography, chameleon hash
 ---
 Hi all 今天第十天，我們來稍微介紹下 變色龍雜湊函數 ( Chameleon Hash) 為何物吧!
 

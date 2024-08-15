@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day03 Introduce 3-layers
+tags: 'tdd, architecture, unit test'
+abbrlink: b75c561e
 date: 2024-08-11 23:14:10
-tags: tdd, architecture, unit test
 ---
 Hi all, 來到第三天，今天來稍微介紹下這次 side project 的專案架構好了。
 

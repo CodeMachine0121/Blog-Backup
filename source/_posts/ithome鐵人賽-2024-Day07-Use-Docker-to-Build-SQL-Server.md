@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day07 Use Docker to Build SQL Server
+tags: 'docker, mysql'
+abbrlink: a660692f
 date: 2024-08-11 23:20:32
-tags: docker, mysql
 ---
 Hi 來到第七天，昨天已經說明了該怎麼使用 mysql 來 create 這次要用來存放 Block 的 table ，但我們還缺個可運行的 db server。
 

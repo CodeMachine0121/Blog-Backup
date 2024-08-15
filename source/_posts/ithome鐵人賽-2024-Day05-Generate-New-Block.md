@@ -1,7 +1,8 @@
 ---
 title: ithome鐵人賽-2024 Day05 Generate New Block
+tags: 'blockchain, tdd'
+abbrlink: c1987c23
 date: 2024-08-11 23:18:01
-tags: blockchain, tdd
 ---
 Hi all, 來到第五天，今天目標是是解說下 區塊的產生並將其實做出來。
 
