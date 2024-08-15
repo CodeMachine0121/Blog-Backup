@@ -3,8 +3,6 @@ author: James Hsueh
 date: 2024-08-16 00:59:42
 tags:
 ---
-# TypeScript: Type and Interface
-
 Hi all, 這篇文章主要會用來比較 type 與 inteface的差別，做為自己的小小筆記。
 
 ## 使用方式
