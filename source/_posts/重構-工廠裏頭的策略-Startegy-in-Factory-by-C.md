@@ -6,6 +6,7 @@ tags: Refactoring, .Net, Decorator, Strategy
 Hi all, 在之前的文章中有講到，我們如何在一個充滿 if-else 及 switch-case 的 code 重構成策略模式讓其本身決定是否符合條件，以下為重構後的 code。
 
 ```csharp
+
 public class PlayerFactory
 {
     private readonly List<IPlayer> _players =
