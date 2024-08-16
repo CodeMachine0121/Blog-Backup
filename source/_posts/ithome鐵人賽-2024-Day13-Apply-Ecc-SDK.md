@@ -15,7 +15,7 @@ Hi all, 來到第13天 昨天由於依賴衝突的關係，導致延後套用 SD
 
 至於為甚麼是 Singleton，主要原因是我期望每個 request 進來時使用的 key都是同組。code 如下:
 
-```csharp
+```csharp=
 var keyPair = EccGenerator.GenerateKeyPair(256);
 var sessionKey = SessionKeyGenerator.GenerateSessionKey();
 builder.Services.AddSingleton(keyPair);
@@ -28,7 +28,7 @@ builder.Services.AddSingleton(sessionKey);
 
 接著就是使用的地方，我們必須於建構子中注入 `keypair`, `SessionKey` 物件，並導入Dto物件，最後再從Dto物件中透過 `EccGenerator` 物件進行變色龍雜湊函數的計算，code 如下:
 
-```csharp
+```csharp=
 [Route("api/v1/[controller]")]
 public class ChainController(IChainService chainService, KeyPair keyPair, SessionKey sessionKey) : ControllerBase 
 {
@@ -53,7 +53,7 @@ public class ChainController(IChainService chainService, KeyPair keyPair, Sessio
 
 - 需要新增兩個 property 的 setter
 
-```csharp
+```csharp=
 public class GenerateNewBlockRequest
 {
     public string Data { get; set; }
@@ -76,7 +76,7 @@ public class GenerateNewBlockRequest
 
 但基於單一職責的問題，我把他抽 method 之後在塞進 dto 內，code如下。
 
-```csharp
+```csharp=
 public class GenerateNewBlockDto
 {
     public string Data { get; set; }
@@ -109,7 +109,7 @@ public class GenerateNewBlockDto
 
 經過一番 refactor 後，變成這樣
 
-```csharp
+```csharp=
 public class ChainService(IChainRepository chainRepository) : IChainService
 {
     private const int Nonce = 0;
@@ -137,7 +137,7 @@ public class ChainService(IChainRepository chainRepository) : IChainService
 
 接著就是計算下個區塊以及轉換 Entity的地方需要計算與新增簽章，code 如下
 
-```csharp
+```csharp=
 public class BlockDomain
 {
     public string Data { get; set; }
@@ -186,7 +186,7 @@ public class BlockDomain
 
 新增 property
 
-```csharp
+```csharp=
 public class Block
 {
     [Key]

@@ -6,7 +6,7 @@
 title: James' Blog
 subtitle: '地域列車車長'
 description: '分享紀錄的地方'
-keywords: ['Tech', 'Life']
+keywords: [ 'Tech', 'Life' ]
 author: James Hsueh
 language: zh-tw
 timezone: 'Asia/Taipei'
@@ -48,12 +48,12 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  enable: false
-  line_number: true
-  auto_detect: false
-  tab_replace: false
+  enable: true
+  line_number: false
+  auto_detect: true
+  tab_replace: true
   wrap: true
-  hljs: false
+  hljs: true
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
@@ -113,10 +113,26 @@ deploy:
   repo: https://github.com/CodeMachine0121/CodeMachine0121.github.io
   branch: main
 
+pjax: true
 all_minifier: true
 html_minifier:
   enable: true
   ignore_error: false
   exclude:
     about/index.html
-pjax: true
+
+# Markdown config
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+  anchors:
+    level: 1
+    collisionSuffix: ''
