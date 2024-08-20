@@ -11,9 +11,9 @@ body {
 
 .header, .footer, .main {
     width: 100%;
-    max-width: 85%;
+    max-width: var(--main-width);
     margin: 0 auto;
-    padding: 30px 8vw 24px;
+    padding: 72px 8vw 24px;
     background: var(--color-background);
     overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ body {
     top: -48px;
     background: inherit;
     margin: 0 auto;
-    padding: 30px 8vw 0;
+    padding: 64px 8vw 0;
 }
 
 .header-container {
@@ -110,7 +110,6 @@ a {
     text-decoration: underline;
     transition: all ease-in-out 0.5s;
 }
-
 .post-item-summary {
     word-break: break-all;
     margin-bottom: 12px;
@@ -122,11 +121,11 @@ a {
     display: flex;
 }
 
-.post-item-extra > .date, .post-meta > .date {
+.post-item-extra>.date, .post-meta>.date {
     margin-right: 1em;
 }
 
-.post-item-extra > .tags, .post-meta > .tags {
+.post-item-extra>.tags, .post-meta>.tags {
     display: flex;
 }
 
@@ -140,26 +139,22 @@ a {
     display: inline-block;
     transition: transform ease-in-out 0.5s;
 }
-
 .read-more:before {
     content: "{ ";
 }
-
 .read-more:after {
     content: " }";
 }
-
 .read-more:hover:before {
     transform: translateX(-4px);
     transition: transform ease-in-out 0.25s;
 }
-
 .read-more:hover:after {
     transform: translateX(4px);
     transition: transform ease-in-out 0.25s;
 }
 
-.tags > .tag-item::before {
+.tags>.tag-item::before {
     content: "⌗";
     color: var(--font-color-extra);
     margin-left: 0.5em;
@@ -221,19 +216,19 @@ a {
     color: var(--font-color-secondary);
 }
 
-.archive-item > .title {
+.archive-item>.title {
     flex: 1;
     text-decoration: none;
     transition: all ease-in-out 0.5s;
 }
 
-.archive-item > .title:hover {
+.archive-item>.title:hover {
     text-decoration: underline;
     transition: all ease-in-out 0.5s;
     transition: color ease-in-out 0.5s;
 }
 
-.archive-item > .tags {
+.archive-item>.tags {
     display: flex;
     font-size: 0.9em;
 }
@@ -284,25 +279,11 @@ a {
     cursor: not-allowed;
 }
 
-.button-container {
-    display: flex;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.button-container button {
-    background-color: #9c9c9c; /* Green */
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 80px;
-}
-
-.hidden {
-    display: none;
+.hljs {
+  display: inline-block;
+  white-space: pre;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
 }

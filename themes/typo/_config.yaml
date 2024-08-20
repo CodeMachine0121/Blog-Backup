@@ -7,3 +7,5 @@ menu:
   About: /about
 
 copyright: 2024 James Hsueh
+pjax: true
+

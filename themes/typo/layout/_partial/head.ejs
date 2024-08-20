@@ -10,13 +10,13 @@
   </title>
 
   <% if (theme.favicon){ %>
-  <%- favicon_tag(theme.favicon) %>
+    <%- favicon_tag(theme.favicon) %>
   <% } %>
 
   <link rel="preconnect" href="https://cdnjs.cloudflare.com">
   <% if (is_post()){ %>
-  <link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.css">
-  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+    <link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.css">
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
   <% } %>
 
   <!-- 字体 -->
@@ -24,6 +24,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/highlight/styles/vs2015.css">
 
   <%- css('css/root.css') %>
   <%- css('css/style.css') %>
