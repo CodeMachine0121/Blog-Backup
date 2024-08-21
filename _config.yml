@@ -6,18 +6,15 @@
 title: James' Blog
 subtitle: '地域列車車長'
 description: '分享紀錄的地方'
-keywords: [ 'Tech', 'Life' ]
+keywords: ['Tech', 'Life']
 author: James Hsueh
 language: zh-tw
 timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://codemachine0121.github.io
-permalink: blog/:abbrlink.html
-abbrlink:
-  alg: crc32  #support crc16(default) and crc32 ,crc16的最大帖子數是65535。
-  rep: hex    #support dec(default) and hex
+url: http://example.com
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -48,18 +45,11 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  enable: true
-  line_number: false
-  auto_detect: true
-  tab_replace: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
   wrap: true
-  hljs: true
-
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess
-  theme: 'tomorrow'
-  line_number: false    # default false
-  custom_css:
+  hljs: false
 prismjs:
   preprocess: true
   line_number: true
@@ -112,27 +102,3 @@ deploy:
   type: git
   repo: https://github.com/CodeMachine0121/CodeMachine0121.github.io
   branch: main
-
-pjax: true
-all_minifier: true
-html_minifier:
-  enable: true
-  ignore_error: false
-  exclude:
-    about/index.html
-
-# Markdown config
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-  plugins:
-    - plugin:
-        name: markdown-it-katex
-        enable: true
-  anchors:
-    level: 1
-    collisionSuffix: ''
