@@ -7,5 +7,20 @@ menu:
   About: /about
 
 copyright: 2024 James Hsueh
-pjax: true
+
+# Latex setting
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+  anchors:
+    level: 1
+    collisionSuffix: ''
 
