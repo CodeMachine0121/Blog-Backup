@@ -13,6 +13,17 @@
     </div>
 </header>
 
+<style>
+    .button-container{
+        margin-top: 5px
+    }
+
+    .hidden{
+        display: none;
+    }
+
+</style>
+
 <script>
     function previousPageOnclick() {
         if (window.location.href.endsWith("/")) {
@@ -28,7 +39,8 @@
         const port = window.location.port ? `:${window.location.port}` : '';
         const rootUrl = `${window.location.protocol}//${window.location.hostname}${port}/`;
 
-        console.log(`${rootUrl}`)
+        console.log(`host url ${rootUrl}`)
+        console.log(`href url ${window.location.href}`)
 
         if (window.location.href !== rootUrl) {
             buttonElement.classList.remove('hidden');
