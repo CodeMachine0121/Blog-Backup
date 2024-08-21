@@ -11,9 +11,9 @@ body {
 
 .header, .footer, .main {
     width: 100%;
-    max-width: var(--main-width);
+    max-width: 70%;
     margin: 0 auto;
-    padding: 72px 8vw 24px;
+    padding: 40px 8vw 24px;
     background: var(--color-background);
     overflow-x: hidden;
 }
