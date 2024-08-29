@@ -7,6 +7,7 @@ date: 2024-08-11 23:22:19
 
 Hi all, 今天第九天 今天就來讓專案可以 Insert Block吧！
 
+<!--more-->
 那由於主要內容都是與SQL做互動，所以我們的code 主要也會動在 repository 層的 `InsertBlock(BlockDomain)` 。
 
 ## Repository

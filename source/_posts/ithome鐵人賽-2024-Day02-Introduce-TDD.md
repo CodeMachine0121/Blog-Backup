@@ -5,6 +5,7 @@ abbrlink: dcec2123
 date: 2024-08-11 23:12:32
 ---
 Hi all, 來到第二天 想先來介紹介紹自己的開發方式，以便往後的code在順序上是看得懂的。
+<!--more-->
 
 首先 TDD 全名是 測試驅動開發 (Test Driven Development)，下面來條列式介紹下：
 

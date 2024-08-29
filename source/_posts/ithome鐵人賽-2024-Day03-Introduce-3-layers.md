@@ -5,7 +5,7 @@ abbrlink: b75c561e
 date: 2024-08-11 23:14:10
 ---
 Hi all, 來到第三天，今天來稍微介紹下這次 side project 的專案架構好了。
-
+<!--more-->
 這次主要會是以 tdd 的角度搭建所謂的 三層式架構，分別是 Controller, Service, Repository。 各個層級接受的參數型別跟回傳的型別也有所不同。
 
 以下是三個架構分別接受/ 回傳的物件型別:

@@ -6,6 +6,7 @@ date: 2024-08-13 21:46:24
 ---
 Hi all, 來到第 11 天，今天就來講講該如何把昨天的公式實作吧。
 
+<!--more-->
 首先這次會使用到的物件分為三種:  `HashHelper`, `EccGenerator`, `ChameleonHashHelper`
 
 ## HashHelper

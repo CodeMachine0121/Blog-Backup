@@ -6,6 +6,7 @@ date: 2024-08-11 23:21:29
 ---
 Hi 來到第八天，昨天的我們已經把 SQL Server 等都處理好了，今天我們就 focus在 專案與 SQL 的打通吧！
 
+<!--more-->
 首先，這次使用到的會是 EntityFrameWork 這個 .Net 套件，這邊附上全名以便使用nuget 安裝
 
 1. MySql.Data 9.0.0

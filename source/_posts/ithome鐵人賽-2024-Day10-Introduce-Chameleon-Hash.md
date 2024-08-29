@@ -6,6 +6,7 @@ date: 2024-08-12 23:04:54
 ---
 Hi all 今天第十天，我們來稍微介紹下 變色龍雜湊函數 ( Chameleon Hash) 為何物吧!
 
+<!--more-->
 ## How Chat GPT Introduce
 
 > Chameleon Hash 是一種密鑰控制的可碰撞雜湊函數（keyed collision-resistant hash function）。這意味著給定一個密鑰，使用者可以控制雜湊值的碰撞，即可以找到不同的輸入消息，讓它們產生相同的雜湊值。

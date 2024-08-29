@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day07 Use Docker to Build SQL Server
-tags: "ithome 鐵人賽-2024"
+tags: 'docker, mysql'
 abbrlink: a660692f
 date: 2024-08-11 23:20:32
 ---
@@ -8,6 +8,7 @@ Hi 來到第七天，昨天已經說明了該怎麼使用 mysql 來 create 這�
 
 今天就來搭建一下 docker 這個好用的玩意兒吧!
 
+<!--more-->
 ## How would Chat GPT Introduce Docker
 
 > Docker 是一個開源的容器化平台，旨在簡化應用程式的部署和管理。它通過將應用程式及其所有依賴包封裝在一個稱為「容器」的標準化單位內，確保應用程式可以在不同環境中一致地運行。Docker 的容器與虛擬機器不同，它們不需要整個操作系統，而是與主機共享操作系統內核，這使得容器更輕量且啟動速度更快。

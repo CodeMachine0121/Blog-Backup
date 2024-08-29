@@ -1,9 +1,11 @@
 ---
-title: latex test
+title: Show Latex in Hexo 
 abbrlink: 4d56e4ff
 date: 2024-08-16 08:09:21
 tags: latex 
+description: 如何顯示 Latex 在 Hexo上
 ---
+
 ## Installing Steps
 
 1. `npm un hexo-renderer-marked --save`
