@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024-Day13 Apply Ecc SDK
-tags: 'sdk, ChameleonHash, Signature'
+tags: "ithome 鐵人賽-2024"
 abbrlink: 8b64eeab
 date: 2024-08-15 21:31:57
 ---

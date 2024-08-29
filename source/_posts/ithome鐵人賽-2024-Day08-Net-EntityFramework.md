@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day08 .Net EntityFramework
-tags: 'entityframework, .net'
+tags: "ithome 鐵人賽-2024"
 abbrlink: e6c04a02
 date: 2024-08-11 23:21:29
 ---

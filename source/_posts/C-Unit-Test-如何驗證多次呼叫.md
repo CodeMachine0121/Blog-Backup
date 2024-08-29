@@ -1,6 +1,6 @@
 ---
 title: "C# Unit Test\_如何驗證多次呼叫"
-tags: '.Net, TDD, UnitTest, C#'
+tags: 'UnitTest'
 abbrlink: 43a9b739
 date: 2024-08-12 07:46:13
 ---

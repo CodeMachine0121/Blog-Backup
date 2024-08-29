@@ -1,6 +1,6 @@
 ---
 title: '[重構] 工廠裏頭的策略 Startegy in Factory by C#'
-tags: 'Refactoring, .Net, Decorator, Strategy'
+tags: 'Refactoring'
 abbrlink: f0cbbe44
 date: 2024-08-12 10:55:05
 ---

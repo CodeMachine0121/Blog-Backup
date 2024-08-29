@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day05 Generate New Block
-tags: 'blockchain, tdd'
+tags: "ithome 鐵人賽-2024"
 abbrlink: c1987c23
 date: 2024-08-11 23:18:01
 ---

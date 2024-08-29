@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day03 Introduce 3-layers
-tags: 'tdd, architecture, unit test'
+tags: "ithome 鐵人賽-2024"
 abbrlink: b75c561e
 date: 2024-08-11 23:14:10
 ---

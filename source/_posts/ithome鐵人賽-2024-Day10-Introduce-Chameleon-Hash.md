@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024-Day10 Introduce Chameleon Hash
-tags: 'cryptography, chameleon hash'
+tags: "ithome 鐵人賽-2024"
 abbrlink: 9aa313dd
 date: 2024-08-12 23:04:54
 ---

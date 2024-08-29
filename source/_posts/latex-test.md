@@ -2,7 +2,7 @@
 title: latex test
 abbrlink: 4d56e4ff
 date: 2024-08-16 08:09:21
-tags: latex, markdown
+tags: latex 
 ---
 ## Installing Steps
 

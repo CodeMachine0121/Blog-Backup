@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day01 Introduce 30-day 目標
-tags: '區塊鏈, .Net Core, Side Project'
+tags: "ithome 鐵人賽-2024"
 abbrlink: 8d3907ed
 date: 2024-08-11 23:07:49
 ---

@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day02 Introduce TDD
-tags: tdd
+tags: "ithome 鐵人賽-2024"
 abbrlink: dcec2123
 date: 2024-08-11 23:12:32
 ---

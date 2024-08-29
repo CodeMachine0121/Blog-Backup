@@ -1,6 +1,6 @@
 ---
 title: '[重構] 策略模式 Strategy by C#'
-tags: 'Refactoring, .Net, Decorator, Strategy'
+tags: 'Refactoring'
 abbrlink: 8cba6edc
 date: 2024-08-12 10:50:50
 ---

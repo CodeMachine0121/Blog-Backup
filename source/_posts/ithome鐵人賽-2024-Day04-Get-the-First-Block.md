@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day04 Get the First Block
-tags: 'blockchain, tdd'
+tags: "ithome 鐵人賽-2024"
 abbrlink: 6f938f8a
 date: 2024-08-11 23:16:11
 ---

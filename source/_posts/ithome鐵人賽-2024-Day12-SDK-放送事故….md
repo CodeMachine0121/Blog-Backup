@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024-Day12-SDK 放送事故…
-tags: 'SDK, 翻車'
+tags: "ithome 鐵人賽-2024"
 abbrlink: '78964999'
 date: 2024-08-14 23:23:37
 ---

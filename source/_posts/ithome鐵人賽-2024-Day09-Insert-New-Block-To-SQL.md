@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day09 Insert New Block To SQL
-tags: 'entityframework, tdd, mysql, .net'
+tags: "ithome 鐵人賽-2024"
 abbrlink: c35b4088
 date: 2024-08-11 23:22:19
 ---

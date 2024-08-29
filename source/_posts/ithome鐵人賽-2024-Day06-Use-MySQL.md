@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day06 Use MySQL
-tags: mysql
+tags: "ithome 鐵人賽-2024"
 abbrlink: 84f4b7b3
 date: 2024-08-11 23:19:31
 ---

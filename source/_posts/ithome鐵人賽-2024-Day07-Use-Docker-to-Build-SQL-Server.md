@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024 Day07 Use Docker to Build SQL Server
-tags: 'docker, mysql'
+tags: "ithome 鐵人賽-2024"
 abbrlink: a660692f
 date: 2024-08-11 23:20:32
 ---

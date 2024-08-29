@@ -1,6 +1,6 @@
 ---
 title: ithome鐵人賽-2024-Day11-Use SDK for Chameleon Hash
-tags: '.Net, ChameleonHash, Sdk'
+tags: "ithome 鐵人賽-2024"
 abbrlink: 5edf55db
 date: 2024-08-13 21:46:24
 ---
