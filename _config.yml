@@ -47,14 +47,20 @@ syntax_highlighter: highlight.js
 highlight:
   enable: false
   line_number: false
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: true
+  hljs: false
 prismjs:
+  enable: true
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
+
+prism_plugin:
+  mode: 'preprocess' # 可選 'realtime' 或 'preprocess'
+  theme: 'default'
+  line_number: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
