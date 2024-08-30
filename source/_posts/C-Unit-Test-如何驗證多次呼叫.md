@@ -3,6 +3,7 @@ title: "C# Unit Test\_如何驗證多次呼叫"
 tags: 'UnitTest'
 abbrlink: 43a9b739
 date: 2024-08-12 07:46:13
+categories: "單元測試"
 ---
 Hi all, 由於工作的關係，我們在TDD的路上遇到了一個情境，那就是如何驗證多次被呼叫的情況。甚麼意思呢，這邊給個例子🌰
 假設我們在DB有張用來存放學生資訊的table，但我們需要當這張table的資料轉移至另一張新的 table (俗稱 Archive)。但由於其資料量問題我們必須分批次的進行 Read 及 Insert，所以我們預期中的production會是長成這樣子。

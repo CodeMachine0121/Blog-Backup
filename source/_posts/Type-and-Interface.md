@@ -3,6 +3,7 @@ title: Type and Interface
 tags: typescript
 abbrlink: 737e6e43
 date: 2024-08-16 01:22:44
+categories: "Js/Ts"
 ---
 Hi all, 這篇文章主要會用來比較 type 與 inteface的差別，做為自己的小小筆記。
 

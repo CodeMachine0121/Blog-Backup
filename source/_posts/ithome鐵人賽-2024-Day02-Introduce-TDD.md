@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024 Day02 Introduce TDD
 tags: "ithome 鐵人賽-2024"
 abbrlink: dcec2123
 date: 2024-08-11 23:12:32
+categories: "ithome 鐵人賽-2024"
 ---
 Hi all, 來到第二天 想先來介紹介紹自己的開發方式，以便往後的code在順序上是看得懂的。
 <!--more-->

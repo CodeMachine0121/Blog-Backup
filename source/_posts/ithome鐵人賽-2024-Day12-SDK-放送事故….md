@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024-Day12-SDK 放送事故…
 tags: "ithome 鐵人賽-2024"
 abbrlink: '78964999'
 date: 2024-08-14 23:23:37
+categories: "ithome 鐵人賽-2024"
 ---
 
 各位... 由於 SDK 的放送事故，今天就來搶修下 我們的 EccSDK

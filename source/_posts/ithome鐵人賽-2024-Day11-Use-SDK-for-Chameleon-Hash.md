@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024-Day11-Use SDK for Chameleon Hash
 tags: "ithome 鐵人賽-2024"
 abbrlink: 5edf55db
 date: 2024-08-13 21:46:24
+categories: "ithome 鐵人賽-2024"
 ---
 Hi all, 來到第 11 天，今天就來講講該如何把昨天的公式實作吧。
 

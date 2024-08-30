@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024 Day08 .Net EntityFramework
 tags: "ithome 鐵人賽-2024"
 abbrlink: e6c04a02
 date: 2024-08-11 23:21:29
+categories: "ithome 鐵人賽-2024"
 ---
 Hi 來到第八天，昨天的我們已經把 SQL Server 等都處理好了，今天我們就 focus在 專案與 SQL 的打通吧！
 

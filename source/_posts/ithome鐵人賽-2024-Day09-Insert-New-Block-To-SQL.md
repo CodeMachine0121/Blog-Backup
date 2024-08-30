@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024 Day09 Insert New Block To SQL
 tags: "ithome 鐵人賽-2024"
 abbrlink: c35b4088
 date: 2024-08-11 23:22:19
+categories: "ithome 鐵人賽-2024"
 ---
 
 Hi all, 今天第九天 今天就來讓專案可以 Insert Block吧！

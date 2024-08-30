@@ -3,6 +3,7 @@ title: ithome鐵人賽-2024 Day01 Introduce 30-day 目標
 tags: "ithome 鐵人賽-2024"
 abbrlink: 8d3907ed
 date: 2024-08-11 23:07:49
+categories: "ithome 鐵人賽-2024"
 ---
 Hi all, 由於07/25 的颱風為我們帶來了長達五天的假期，讓宅在家的我有了想要做 side project的想法，既然都想到要做了又剛好遇到這次鐵人賽的機會，那就做吧 :)。
 

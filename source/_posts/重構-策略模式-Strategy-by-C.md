@@ -3,6 +3,7 @@ title: '[重構] 策略模式 Strategy by C#'
 tags: 'Refactoring'
 abbrlink: 8cba6edc
 date: 2024-08-12 10:50:50
+categories: "重構人人有責"
 ---
 Hi all, 由於近日 91蒞臨我們部門擔任為期一周的 coach，因此有了此次的機遇，整個被點醒的過程蠻讚的寫篇文章來記錄。
 
