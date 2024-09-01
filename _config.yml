@@ -110,3 +110,8 @@ deploy:
   repo: https://github.com/CodeMachine0121/CodeMachine0121.github.io
   branch: main
 
+search:
+  path: search.xml
+  field: all
+  content: true
+  format: html
