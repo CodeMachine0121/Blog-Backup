@@ -1,9 +1,10 @@
 ---
 title: ithome 鐵人賽-2024-Day15 Store Key Data for EccSDK
 author: James Hsueh
+tags: ithome 鐵人賽-2024
+categories: ithome 鐵人賽-2024
+abbrlink: 3f976c9
 date: 2024-08-22 01:05:50
-tags: "ithome 鐵人賽-2024"
-categories: "ithome 鐵人賽-2024"
 ---
 Hi all, 來到第15天，今天就來好好處理如何永久儲存 變色龍雜湊函數所需要使用的 key 吧
 <!--more-->

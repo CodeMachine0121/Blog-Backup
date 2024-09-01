@@ -1,9 +1,10 @@
 ---
 title: ithome 鐵人賽-2024-Day14 Make a Editable Block
 author: James Hsueh
+tags: ithome 鐵人賽-2024
+categories: ithome 鐵人賽-2024
+abbrlink: 75f7afc7
 date: 2024-08-22 00:04:37
-tags: "ithome 鐵人賽-2024"
-categories: "ithome 鐵人賽-2024"
 ---
 Hi all 來到14天， 昨天我們成功把專案引入EccSDK，同時也將 insert 區塊的變色龍雜湊值補上，但似乎還少了點啥，今天就來定義下吧。
 <!--more-->
