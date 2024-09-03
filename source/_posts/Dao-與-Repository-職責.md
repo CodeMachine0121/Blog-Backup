@@ -5,7 +5,7 @@ categories: 軟體架構
 abbrlink: 21be0a47
 date: 2024-09-03 00:58:23
 ---
-由於小弟近期工作遇到ㄧ些架構層面上的問題，其中我們再定義 Dao 及 Repository 的路上有些許的討論。
+由於小弟近期工作遇到ㄧ些架構層面上的問題，其中我和 team 上的 member [Bear](https://github.com/YNCBearz) 再定義 Dao 及 Repository 的路上有些許的討論。
 
 我覺得蠻有意義的，故紀錄於此。
 <!--more-->
@@ -35,7 +35,7 @@ controller -> service -> repository -> dao -> call stored procedure
 ```
 
 ## 困惑點
-當我跟 member 興奮的拿著這個架構詢問部門上另個 Senior 時，他提出了一個問題點
+當我跟 [Bear](https://github.com/YNCBearz) 興奮的拿著這個架構詢問部門上另個 Senior [Kyo](https://github.com/kyoforing) 時，他提出了一個問題點
 > 如果 Dao 的職責是針對一張 Table 的 CRUD，那一個 stored procedure 裏頭 Join 多張表怎麼辦 ?
 
 這個問題可以衍生出兩個問題點
