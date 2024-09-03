@@ -33,12 +33,6 @@
 
   </ul>
 {%- endif %}
-
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;">
-  <iframe src="https://giphy.com/embed/o7RZbs4KAA6tvM4H6j" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-</div>
-
-
 </nav>
 
 <div class="coffee" style="display:flex;justify-content:center;padding:10px;">
