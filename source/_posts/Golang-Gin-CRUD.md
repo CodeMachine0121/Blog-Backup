@@ -1,16 +1,16 @@
 ---
 title: 'Golang/Gin: CRUD'
-date: 2024-09-25 19:16:38
+abbrlink: c0077237
+date: 2024-09-14 19:16:38
 tags:
 ---
-
 This is a simple CRUD example with using Gin. 
+<!--more-->
 # Get
 ## Purpose
 1. Hard code a list of user data.
 2. Create a GET endpoint to fetch all data.
 3. Extract service layer to handle the requests.
-<!--more-->
 
 ## Code
 
@@ -111,7 +111,6 @@ we should see the response:
 3. Parse the data from request body into model type.
 4. Add the data to the list.
 5. Return the list.
-<!--more-->
 
 ## Code
 
@@ -194,7 +193,7 @@ we should see the response:
 3. Extract the ID from the request parameter(Restful).
 4. Remove the data from the list.
 5. Return the list.
-<!--more-->
+
 
 ## Code
 ### main.go
