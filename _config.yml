@@ -116,7 +116,7 @@ theme: next
 
 deploy:
   type: git
-  repo: https://github.com/CodeMachine0121/CodeMachine0121.github.io
+  repo: git@github.com:CodeMachine0121/CodeMachine0121.github.io.git
   branch: main
 
 search:

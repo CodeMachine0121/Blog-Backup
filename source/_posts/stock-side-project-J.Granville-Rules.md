@@ -1,5 +1,5 @@
 ---
-title: 股票 side-project:葛蘭碧法則
+title: Stock side-project::J.Granville Rules
 tags: 'Stock'
 abbrlink: 5fabe0cb
 date: 2024-10-01 01:00:21
@@ -14,8 +14,7 @@ Hi all, 這是個深度學習小白想玩玩 Learning 的一個 Side Project，�
 
 簡單來說，是個交易訊號，一個告知我們什麼時候該進退場的訊號
 
-![image.png](股票-side-project/trade_signal.png)
-
+![img.png](/images/trade_signal.png)
 紅線：移動平均線　黑線：股價走勢
 ## 【買進訊號】：
 
