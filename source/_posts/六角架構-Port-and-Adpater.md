@@ -4,6 +4,7 @@ tags: clean-architecture
 categories: 軟體架構
 abbrlink: 406b4875
 date: 2024-09-02 23:25:47
+top: true
 ---
 現今許多開發團隊表面上採用分層架構，但實際上更接近六角架構，這是因為許多專案或多或少都會使用依賴注入的緣故。
 採用依賴注入後，架構的開發自然而然地更傾向於這種 Port 對 Adapter 的設計風格。

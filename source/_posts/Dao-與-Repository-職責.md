@@ -4,6 +4,7 @@ tags: clean-architecture
 categories: 軟體架構
 abbrlink: 21be0a47
 date: 2024-09-03 00:58:23
+top: true
 ---
 由於小弟近期工作遇到ㄧ些架構層面上的問題，其中我和 team 上的 member [Bear](https://github.com/YNCBearz) 再定義 Dao 及 Repository 的路上有些許的討論。
 
