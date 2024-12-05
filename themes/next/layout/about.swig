@@ -10,6 +10,18 @@
     <div class="left">
         <div class="working-experience">
             <h2>Working Experience</h2>
+
+            <div class="title">
+                <h3>GARMIN 台灣國際航電股份有限公司</h3>
+            </div>
+            <p>SRE Backend Developer </p>
+            <p>2024~ </p>
+            <ol class="disc-list">
+                <li>Backend: .Net Core</li>
+                <li>Observability: OpenTelemetry, Granafa, Loki, Tempo</li>
+            </ol>
+
+            <hr>
             <div class="title">
                 <h3>Titansoft, 新加坡商鈦坦科技</h3>
             </div>
