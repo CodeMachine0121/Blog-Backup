@@ -26,7 +26,7 @@
                <div class="titansoft" style="display: flex; gap: 40px; padding: 20px; border-radius: 8px;">
                    <div class="content" style="flex: 1;">
                        <div class="title" style="margin-bottom: 15px;">
-                           <h3>titansoft, 新加坡商鈦坦科技</h3>
+                           <h3>Titansoft, 新加坡商鈦坦科技</h3>
                        </div>
                        <p>product developer</p>
                        <p>2022~ 2024</p>
