@@ -14,7 +14,7 @@
            </div>
            <div class="content-wrapper">
                <h2>Working Experience</h2>
-               <div class="garmin">
+               <div class="garmin job">
                    <div class="content">
                      <div class="title">
                          <h3>GARMIN 台灣國際航電股份有限公司</h3>
@@ -26,7 +26,7 @@
                          <li>Observability: OpenTelemetry, Granafa, Loki, Tempo</li>
                      </ol>
                    </div>
-                   <div>
+                   <div class="working-achievement">
                         <h2>Working Achievement</h2>
                         <ol class="working-achievement-list">
                            <li>Refactor projects make it more maintainable</li>
@@ -36,7 +36,7 @@
                    </div>
                </div>
                <hr>
-               <div class="titansoft">
+               <div class="titansoft job">
                    <div class="content">
                        <div class="title">
                            <h3>Titansoft, 新加坡商鈦坦科技</h3>
