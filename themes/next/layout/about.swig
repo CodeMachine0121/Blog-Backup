@@ -100,8 +100,7 @@
                    <ol>
                        <li>Current: Sharing Tech Knowledge on Blog</li>
                        <li>PasswordManager using <b>Vault</b></li>
-                       <li>Department Sharing: <a href="https://codemachine0121.github.io/posts/406b4875/">六角架構</a>, <a href="https://codemachine0121.github.io/posts/92d0760d/">分層架構</a> 及<a href="https://codemachine0121.github.io/posts/21be0a47/">Dao 與 Repository 職責</a>
-                       </li>
+                       <li>Department Sharing: <b>Clean Architecture</b></li>
                        <li>iThome 鐵人賽 自我挑戰
                            <ol class="disc-list">
                                <li><a href="https://ithelp.ithome.com.tw/users/20115082/ironman/7165">Side-Project:: 為自己打造個可編輯的區塊鏈</a></li>
@@ -112,7 +111,7 @@
                        <li>Pass CKAD License</li>
                        <li><a href="https://gdg.community.dev/gdg-kaohsiung/">GDG Kaohsiung</a> Speaker
                            <ol class="disc-list">
-                               <li><a href="https://gdg.community.dev/events/details/google-gdg-kaohsiung-presents-toocon-9/">當個願望小天使: 使用 Golang 監聽 Discord 頻道延遲</a></li>
+                               <li><a href="https://gdg.community.dev/events/details/google-gdg-kaohsiung-presents-toocon-9/">使用 Golang 監聽 Discord 頻道延遲</a></li>
                                <li><a href="https://gdg.community.dev/events/details/google-gdg-kaohsiung-presents-toocon-11/">讓 Vim 成為 IDE</a></li>
                            </ol>
                        </li>
