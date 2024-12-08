@@ -1,0 +1,120 @@
+.container {
+    width: 100%;
+}
+
+.left {
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image-wrapper {
+    flex: 1;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.content-wrapper {
+    flex: 2;
+}
+
+.disc-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.titansoft {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.titansoft .content {
+    flex: 1;
+}
+
+.titansoft .title {
+    margin-bottom: 15px;
+}
+
+.titansoft .working-achievement {
+    flex: 1;
+}
+
+.titansoft .working-achievement h2 {
+    margin-bottom: 15px;
+}
+
+.working-achievement-list {
+    padding-left: 20px;
+}
+
+.education .numbered-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.personal-achievement {
+    padding: 20px;
+}
+
+.personal-achievement > div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.personal-achievement ol {
+    columns: 2;
+    column-gap: 20px;  /* 減小列間距 */
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.personal-achievement ol > li {
+    break-inside: avoid;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* 子列表樣式 */
+.personal-achievement .disc-list {
+    margin-top: 5px;
+    padding-left: 30px;
+    list-style-type: disc;
+    columns: 1;        /* 確保子列表為單列 */
+    column-gap: 0;     /* 移除子列表的列間距 */
+    display: block;    /* 確保垂直排列 */
+}
+
+.personal-achievement .disc-list li {
+    break-inside: avoid;
+    margin-bottom: 5px;
+}
+
+/* 確保連結文字不會溢出 */
+.personal-achievement a {
+    word-break: break-word;
+    display: inline-block;
+}
+
+/* 響應式設計 */
+@media screen and (max-width: 768px) {
+    .personal-achievement ol {
+        columns: 1;
+    }
+}
+
+.t-2 {
+    padding-top: 8px;
+}
+

@@ -3,29 +3,42 @@
 
 {% block title %}{{ title }}{%- if theme.index_with_subtitle and subtitle %} - {{ subtitle }}{%- endif %}{% endblock %}
 {% block class %}index posts-expand{% endblock %}
+
 {% block content %}
 <hr>
 <div class="container">
     <div class="left">
-        <div style="display: flex; align-items: flex-start; gap: 20px;">
-           <div style="flex: 1;">
-               <img style="width: 100%; height: auto;" src="https://gcdnb.pbrd.co/images/LSSIC7plBKbi.png?o=1" alt="personal-image"/>
+        <div class="image-container">
+           <div class="image-wrapper">
+               <img src="https://gcdnb.pbrd.co/images/LSSIC7plBKbi.png?o=1" alt="personal-image"/>
            </div>
-           <div style="flex: 2;">
+           <div class="content-wrapper">
                <h2>Working Experience</h2>
-               <div class="title">
-                   <h3>GARMIN 台灣國際航電股份有限公司</h3>
+               <div class="garmin">
+                   <div class="content">
+                     <div class="title">
+                         <h3>GARMIN 台灣國際航電股份有限公司</h3>
+                     </div>
+                     <p>SRE Backend Developer </p>
+                     <p>2024~ Now </p>
+                     <ol class="disc-list">
+                         <li>Backend: .Net Core</li>
+                         <li>Observability: OpenTelemetry, Granafa, Loki, Tempo</li>
+                     </ol>
+                   </div>
+                   <div>
+                        <h2>Working Achievement</h2>
+                        <ol class="working-achievement-list">
+                           <li>Refactor projects make it more maintainable</li>
+                           <li>Provide SDK for projects Auto Tracting</li>
+                           <li>Provide SDK for Servers Health Check</li>
+                        </ol>
+                   </div>
                </div>
-               <p>SRE Backend Developer </p>
-               <p>2024~ </p>
-               <ol class="disc-list">
-                   <li>Backend: .Net Core</li>
-                   <li>Observability: OpenTelemetry, Granafa, Loki, Tempo</li>
-               </ol>
                <hr>
-               <div class="titansoft" style="display: flex; gap: 40px; padding: 20px; border-radius: 8px;">
-                   <div class="content" style="flex: 1;">
-                       <div class="title" style="margin-bottom: 15px;">
+               <div class="titansoft">
+                   <div class="content">
+                       <div class="title">
                            <h3>Titansoft, 新加坡商鈦坦科技</h3>
                        </div>
                        <p>product developer</p>
@@ -37,9 +50,9 @@
                            <li>use gitlab for ci/cd</li>
                        </ol>
                    </div>
-                   <div class="working-achievement" style="flex: 1;">
-                       <h2 style="margin-bottom: 15px;">working achievement</h2>
-                       <ol style="padding-left: 20px;">
+                   <div class="working-achievement">
+                       <h2>working achievement</h2>
+                       <ol class="working-achievement-list">
                            <li>import hexagonal architecture knowledge for members</li>
                            <li>acting as the <b>outlink</b> in the team</li>
                            <li>host refactor workshop for intern team</li>
@@ -58,7 +71,7 @@
 
         <div class="education">
            <h2>Education</h2>
-           <ol class="numbered-list" style="display: flex; gap: 20px; justify-content: space-around;">
+           <ul class="numbered-list">
                <li>
                    <div>
                        <h3>Computer Science and Information Engineering</h3>
@@ -77,14 +90,18 @@
                        <p class="t-2">Study on Network Security Research Area</p>
                    </div>
                </li>
-           </ol>
+           </ul>
         </div>
         <hr>
-        <div class="personal-achievement" style="padding: 20px;"> <h2>Personal Achievement</h2>
-           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+        <div class="personal-achievement">
+            <h2>Personal Achievement</h2>
+            <div>
                <div>
-                   <ol style="margin: 0;">
+                   <ol>
                        <li>Current: Sharing Tech Knowledge on Blog</li>
+                       <li>PasswordManager using <b>Vault</b></li>
+                       <li>Department Sharing: <a href="https://codemachine0121.github.io/posts/406b4875/">六角架構</a>, <a href="https://codemachine0121.github.io/posts/92d0760d/">分層架構</a> 及<a href="https://codemachine0121.github.io/posts/21be0a47/">Dao 與 Repository 職責</a>
+                       </li>
                        <li>iThome 鐵人賽 自我挑戰
                            <ol class="disc-list">
                                <li><a href="https://ithelp.ithome.com.tw/users/20115082/ironman/7165">Side-Project:: 為自己打造個可編輯的區塊鏈</a></li>
@@ -100,13 +117,9 @@
                            </ol>
                        </li>
                        <li>Host DevOps WorkShop in TitanSoft</li>
-                   </ol>
-               </div>
-               <div>
-                   <ol start="8" style="margin: 0;">
                        <li>iThome 鐵人賽 自我挑戰組
                            <ol class="disc-list">
-                               <li><a href="https://ithelp.ithome.com.tw/users/20115082/ironman/5988?page=1">掘地土撥鼠的設計歷險記系列, 在30天內使用 golang 寫出 30種不同的設計模型</a></li>
+                               <li><a href="https://ithelp.ithome.com.tw/users/20115082/ironman/5988?page=1">在30天內使用 golang 寫出 30種不同的設計模型</a></li>
                            </ol>
                        </li>
                        <li>Join 91's TDD Workshop in TitanSoft</li>
