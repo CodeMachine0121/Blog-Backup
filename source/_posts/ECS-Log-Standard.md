@@ -1,7 +1,8 @@
 ---
 title: ECS Log Standard
+tags: Standard
+abbrlink: 4022bb93
 date: 2025-01-07 22:31:40
-tags: "Standard"
 ---
 # ECS Log Standard
 
@@ -16,7 +17,7 @@ ECS 提供了一個統一的結構，使得來自不同來源的日誌資料可�
 - **一致性**：ECS 定義了一組標準欄位，使得不同來源的日誌資料可以使用相同的欄位名稱。
 - **擴展性**：ECS 允許使用者根據需要擴展欄位。
 - **相容性**：ECS 與多種日誌管理工具和函式庫相容。
-
+<!--more-->
 ## 如何實施ECS？
 
 實施ECS 需要以下步驟：
