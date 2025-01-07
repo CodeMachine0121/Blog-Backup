@@ -2,12 +2,14 @@
 title: 'Golang/Gin: CRUD'
 abbrlink: c0077237
 date: 2024-09-14 19:16:38
-tags:
+tags: Golang/Gin
 ---
-This is a simple CRUD example with using Gin. 
+This is a simple CRUD example with using Gin.
 <!--more-->
 # Get
+
 ## Purpose
+
 1. Hard code a list of user data.
 2. Create a GET endpoint to fetch all data.
 3. Extract service layer to handle the requests.
@@ -105,7 +107,9 @@ we should see the response:
 ```
 
 # Post
+
 ## Purpose
+
 1. Create a POST endpoint to insert data.
 2. Add function in the service layer to handle the request.
 3. Parse the data from request body into model type.
@@ -139,29 +143,35 @@ func main() {
 ```go
 func Insert(c *gin.Context) {
 
-	var user models.User
-	c.BindJSON(&user)
+ var user models.User
+ c.BindJSON(&user)
 
-	useList = append(useList, user)
-	c.JSON(200, gin.H{
-		"message": useList,
-	})
+ useList = append(useList, user)
+ c.JSON(200, gin.H{
+  "message": useList,
+ })
 }
 ```
 
 ## Explanation
+
 1. first, we added a router for the POST request.
 2. In the service layer, we added a function to handle the POST request.
     1. Declared a null user model.
     2. Use `BindJSON` to bind the request body to the user model.
     3. Append the parsed data to the list.
     4. Return the list as a response.
+
 ## E2E Testing
+
 we cat use curl to test the POST request.
+
 ```bash
 curl -X POST http://localhost:8080 -d '{"ID": 3, "Name": "Jane", "Email": "jane@mail"}'
 ```
+
 we should see the response:
+
 ```json
 {
   "message": [
@@ -184,66 +194,70 @@ we should see the response:
 }
 ```
 
+# Delete
 
-
-# Delete 
 ## Purpose
+
 1. New endpoint to delete data.
 2. Add a function in the service layer to handle the request.
 3. Extract the ID from the request parameter(Restful).
 4. Remove the data from the list.
 5. Return the list.
 
-
 ## Code
+
 ### main.go
+
 ```go
 package main
 
 import (
-	"first-gin/service"
-	"github.com/gin-gonic/gin"
+ "first-gin/service"
+ "github.com/gin-gonic/gin"
 )
 
 func main() {
 
-	router := gin.Default()
+ router := gin.Default()
 
-	router.GET("/users", service.FetchAll)
-	router.POST("", service.Insert)
-	// define the route with parameter
-	router.DELETE("user/:id", service.Delete)
+ router.GET("/users", service.FetchAll)
+ router.POST("", service.Insert)
+ // define the route with parameter
+ router.DELETE("user/:id", service.Delete)
 
-	router.Run(":8080")
+ router.Run(":8080")
 }
 ```
+
 ### service/user.go
+
 ```go
 func Delete(context *gin.Context) {
-	// get id from routing like restful api and to int
-	id, _ := strconv.Atoi(context.Param("id"))
+ // get id from routing like restful api and to int
+ id, _ := strconv.Atoi(context.Param("id"))
 
-	useList = Filter(useList, func(user models.User) bool {
-		return user.ID != id
-	})
+ useList = Filter(useList, func(user models.User) bool {
+  return user.ID != id
+ })
 
-	context.JSON(200, gin.H{
-		"message": useList,
-	})
+ context.JSON(200, gin.H{
+  "message": useList,
+ })
 }
 
 func Filter(list []models.User, predicate func(user models.User) bool) []models.User {
-	var result []models.User
-	for _, user := range list {
-		if predicate(user) {
-			result = append(result, user)
-		}
-	}
-	return result
+ var result []models.User
+ for _, user := range list {
+  if predicate(user) {
+   result = append(result, user)
+  }
+ }
+ return result
 }
 ```
 
 ## Explanation
+
 1. Added a new route for the DELETE request in main.go.
 2. In the service layer, added a function to handle the DELETE request.
     1. Extract the ID from the request parameter.
